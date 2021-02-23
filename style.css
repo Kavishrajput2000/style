@@ -1,0 +1,154 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family:'oswalt',sans-serif;	
+}
+.top{
+height: 100px;
+widows: 100%;
+background: #251D1D;
+display: block;
+}
+.top .head{
+	height: 40px;
+	width: 100%;
+	background: #251D1D;
+	text-align: center;
+	line-height:40px;
+	border-bottom: 3px solid #13F658;
+	padding: 15px;
+}
+.top .head a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-left: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	transition: 0.7s;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.head a:hover i{
+	transform: rotate(360deg);
+	transition: .4s;
+}
+.top .head a:hover{
+    background: #534646;
+    color: white;
+    border-radius: 4px;
+}
+.bottom{
+display: block;
+bottom: 0;
+left: 0;
+right: 0;
+position: fixed;
+height: 110px;
+width: 100%;
+opacity: .9;
+}
+.bottom .content{
+	width: 100%;
+	height: 40px;
+	color: #545353;
+	bottom: 0;
+	background: black;
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 20px;
+    opacity: 1;
+}
+.social{
+	position: absolute;
+	display: inline-block;
+	line-height: 70px;
+	background: #161515;
+	width: 100%;
+	text-align: center;
+}
+.social a{
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-decoration:none;
+	font-weight: bold;
+	margin-left: 25px;
+	padding: 10px;
+	transition: .8s;
+	border-radius: 5px;
+}
+.social a:hover{
+	background: #908C8C;
+}
+.PARA{
+	display:block;
+	position: fixed;
+    color:white;
+    width: 80%;
+    text-align: justify;
+    margin-left: 15px;
+    margin: 20px;
+    font-size: 20px;
+}
+.PARA a{
+	font-size: 18px;
+	color: white;
+    text-align: center;
+display:inline-block;
+margin: 10px;
+}
+.css{
+	display: block;
+	position: absolute;
+	border: 2px solid  #0CFB22; 
+	height: 870px;
+	width: 20%;
+	background: black;
+	color: black;
+	left: 1480px;
+	background-attachment: fixed;
+	padding-right: 22px;
+}
+.css .cpp{
+	display: inline-block;
+	position: relative;
+	height: 700px;
+	width: 100%;
+}
+.css .cpp h3{
+	color: white;
+	width: 100%;
+	padding-right: 22px;
+	background-color: #0CFB22;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+.css .cpp a{
+    color: white;
+    margin-left: 1px;
+    padding-left: 22px;
+	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	transition: 0.6s;
+	color: #0CFB22;
+}
+.css .cpp a:hover{
+	background-color: #0CFB22;
+	color: white;
+}
